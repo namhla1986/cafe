@@ -21,33 +21,41 @@
 <body class="bg">
 
     <!-- This the nav section -->
-    <div class="container">
+    <nav class="navbar navbar-custom fixed-top navbar-expand-sm justify-content-center">
         <div class="branding">
-            <h1 id="branding">Demo Cafe</h1>
+            <h1 id="branding"><a class="navbar-brand" href="index.html">Demo Cafe</a></h1>
         </div>
 
         <ul class="nav nav-pills justify-content-center" >
           <li class="nav-item">
-            <a class="nav-link active" id="welcome" href="index.html">Welcome</a>
+            <a class="nav-link active" href="index.html">Welcome</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Our Coffee</a>
+            <a class="nav-link" href="ourcoffee.html">Our Coffee</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menus.html">Menus</a>
+          </li>
+
+
+        <!--
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Menu</a>
+            <a class="nav-link dropdown-toggle"  data-toggle="dropdown" href="menus.html">Menus</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Coffee</a>
-              <a class="dropdown-item" href="#">Food</a>
-              <a class="dropdown-item" href="#">Other beverages</a></div>
+              <a class="dropdown-item" href="#">Breakfast</a>
+              <a class="dropdown-item" href="#">Lunch</a>
+              <a class="dropdown-item" href="#">Dinner</a>
+            </div>
           </li>
+        -->
           <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact Us</a>
           </li>
         </ul>
-    </div>   
+    </nav>   
 
 
     <!--Carousel -->
@@ -88,6 +96,7 @@
       </a>
     </div>
 
+    <!-- This is the first container with text-->
     <div class="container">
       <div class="row" id="aboutus">
         <div class="col-sm-6 col-xs-12">
@@ -116,6 +125,7 @@
       </div>
     </div>
 
+    <!-- This is the second container with text-->
     <div class="container">
       <div class="row" id="aboutus">
         <div class="col-sm-6 col-xs-12">
@@ -144,6 +154,7 @@
       </div>
     </div>
 
+    <!-- This is the third container with text-->
     <div class="container">
       <div class="row" id="aboutus">
         <div class="col-sm-6 col-xs-12">
@@ -174,9 +185,10 @@
     </div>
 
     <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
+    <footer class="container-fluid page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">
+        <span class="text-muted">© 2020 Copyright:
+          <a href="http://namhlamankune.co.za/">namhlamankune.co.za</a></span>
       </div>
     </footer>
 
