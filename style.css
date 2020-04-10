@@ -43,6 +43,7 @@ nav.navbar {
 
 #breakfast {
   background-image: url(images/pic08.jpg);
+  border-radius: 0%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -53,6 +54,7 @@ nav.navbar {
 
 #lunch {
   background-image: url(images/pic06.jpg);
+  border-radius: 0%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,6 +65,7 @@ nav.navbar {
 
 #dinner {
   background-image: url(images/pic01.jpg);
+  border-radius: 0%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

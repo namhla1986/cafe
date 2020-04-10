@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cafe Name | Welcome
+  </title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body class="bg">
+
+    <!-- This the nav section -->
+    <nav class="navbar navbar-custom fixed-top navbar-expand-sm justify-content-center">
+        <ul class="nav nav-pills justify-content-center" >
+          <li class="nav-item">
+            <a class="nav-link active" id="welcome" href="index.html">Welcome</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ourcoffee.html">Our Coffee</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="menus.html">Menus</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Contact Us</a>
+          </li>
+        </ul>
+    </nav>    
+
+    <!-- This where the tbranhding is --> 
+    <div class="jumbotron text-center">
+        <h1 id="branding" class="display-1">Demo Cafe</h1>
+        <p>The home of a good cup of coffee!</p> 
+    </div>
+
+    <!-- The form -->
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-xs-12">
+            <h2>Form Validation</h2>
+            <p>In this example, we use <code>.needs-validation</code>, which will add the validation effect AFTER the form has been submitting (if there's anything missing).</p>
+            <p>Try to submit this form before filling out the input fields, to see the effect.</p>
+            <form action="/action_page.php" class="needs-validation" novalidate>
+              <div class="form-group">
+                <label for="uname">Name:</label>
+                <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="form-group">
+                <label for="pwd">Email:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd" required>
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Please fill out this field.</div>
+              </div>
+              <div class="form-group">
+                <label for="comment">Comment:</label>
+                <textarea class="form-control" rows="5" id="comment"></textarea>
+              </div>
+              <div class="form-group form-check">
+                <label class="form-check-label">
+                  <input class="form-check-input" type="checkbox" name="remember" required> I agree on blabla.
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">Check this checkbox to continue.</div>
+                </label>
+              </div>
+
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>        </div>
+
+        <!-- The Address details-->
+        <div class="col-sm-6 col-xs-12">
+          <h3 class="text-center">Contact Us:</h3>
+          <p class="text-center">Sea Point | Constantia | Newlands</p>
+          <p class="text-center"> 021 - 671 - 3387 BOOKINGS</p>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid page-footer font-small blue">
+      <div class="footer-copyright text-center py-3">
+        <span class="text-muted">© 2020 Copyright:
+          <a href="http://namhlamankune.co.za/">namhlamankune.co.za</a></span>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        // Disable form submissions if there are invalid fields
+        (function() {
+          'use strict';
+          window.addEventListener('load', function() {
+            // Get the forms we want to add validation styles to
+            var forms = document.getElementsByClassName('needs-validation');
+            // Loop over them and prevent submission
+            var validation = Array.prototype.filter.call(forms, function(form) {
+              form.addEventListener('submit', function(event) {
+                if (form.checkValidity() === false) {
+                  event.preventDefault();
+                  event.stopPropagation();
+                }
+                form.classList.add('was-validated');
+              }, false);
+            });
+          }, false);
+        })();
+        </script>
+</body>
+</html>
