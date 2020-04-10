@@ -55,7 +55,7 @@
             <h2>Form Validation</h2>
             <p>In this example, we use <code>.needs-validation</code>, which will add the validation effect AFTER the form has been submitting (if there's anything missing).</p>
             <p>Try to submit this form before filling out the input fields, to see the effect.</p>
-            <form action="/action_page.php" class="needs-validation" novalidate>
+            <form action="cafe-conn.php" method="post" class="needs-validation" novalidate>
               <div class="form-group">
                 <label for="uname">Name:</label>
                 <input type="text" class="form-control" id="uname" placeholder="Enter username" name="uname" required>
@@ -81,7 +81,34 @@
               </div>
 
               <button type="submit" class="btn btn-primary">Submit</button>
-            </form>        </div>
+            </form>        
+          </div>
+
+
+
+          <!--
+
+
+      <div id="frame">
+      <form name="orderform" action="connect.php" method="post">
+        <div class="field">
+          <label for="name">Name: </label> <input type="text" id="name" name="customerName" value="">
+        </div>
+        <div class="field">
+          <label for="name">Email: </label> <input type="text" id="email" name="customerEmail" value="">
+        </div>
+        <div class="field">
+          <label for="name">Message: </label> 
+          <br>
+          <textarea type="text" id="message" name="customerMessage" Placeholder="Leave a message" value=""></textarea>
+        </div>
+        <div class="button">
+          <input type="submit" value="submit">
+        </div>
+
+
+
+          -->
 
         <!-- The Address details-->
         <div class="col-sm-6 col-xs-12">
