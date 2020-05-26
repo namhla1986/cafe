@@ -3,10 +3,6 @@ body, html {
   }
 
 .bg { 
-    /* The image used */
-   /*background-image: url("images/bg.jpg");*/
-
-    background-color: gray;
     /* Full height */
     height: auto; 
   
@@ -52,8 +48,9 @@ li a:hover:not(.active) {
 }
 
 #breakfast {
-  background-image: url(images/pic08.jpg);
+  background-image: url(images/pic14.jpeg);
   border-radius: 0%;
+  margin-bottom: 2px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -63,8 +60,9 @@ li a:hover:not(.active) {
 }
 
 #lunch {
-  background-image: url(images/pic06.jpg);
+  background-image: url(images/pic08.jpg);
   border-radius: 0%;
+  margin-bottom: 2px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,7 +72,7 @@ li a:hover:not(.active) {
 }
 
 #dinner {
-  background-image: url(images/pic01.jpg);
+  background-image: url(images/pic16.jpeg);
   border-radius: 0%;
   background-position: center;
   background-repeat: no-repeat;
